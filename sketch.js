@@ -80,6 +80,7 @@ function draw() {
 function readStock(data)
 {
   foodS = data.val();
+	foodObj.updateFoodStock(foodS);
 }
 
 function writeStock(x)
